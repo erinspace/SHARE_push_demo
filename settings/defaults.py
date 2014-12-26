@@ -1,4 +1,4 @@
-for live OSF Testing: 
+# for live OSF Testing: 
 SHARE_PUSH_URL = 'http://share-dev.osf.io/api/dev/share/'
 
 # for local scrapi testing: 

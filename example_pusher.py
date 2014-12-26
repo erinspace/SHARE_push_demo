@@ -71,6 +71,8 @@ def send_post_to_scrapi(events):
     posted = requests.post(
         url_for_post, headers=headers, data=json.dumps(events), auth=auth, verify=False)
 
+    if posted.status_code != 201:
+        print posted.text
     return posted
 
 
